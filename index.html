@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="moment-with-locales.js"></script>
+    <link href="page.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="calendar.js"></script>	
+</head>
+<body>
+
+	<h1>Calendario</h1>
+	<span id= "previousMonth" class="remover-linha" onclick="previousMonth()"><< </span>
+	<span id= "nextMonth" class="remover-linha" onclick="nextMonth()"> >></span>
+	<span id="mes" class="remover"></span>
+
+	  <table id="calendar">         
+        <thead>
+            <tr>
+                <th>domingo</th>
+				<th>segunda</th>
+				<th>terca</th>
+				<th>quarta</th>
+				<th>quinta</th>
+				<th>sexta</th>
+				<th>sabado</th>
+            </tr>
+        </thead>
+        <tbody>
+        	
+        </tbody>
+    </table>
+
+    <h1>Agenda</h1>
+    <table id="agenda">
+    </table>
+
+</body>
+</html>
